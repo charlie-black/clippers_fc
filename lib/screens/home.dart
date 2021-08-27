@@ -139,14 +139,14 @@ class _HomepageState extends State<Homepage> {
                ),
              ),
               Card(shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(20),
+                borderRadius: BorderRadius.circular(10),
               ),
                 elevation: 20,
                 child: Column(
                   children: [
                     Row(
                       children: [
-                        SizedBox(width: 140,),
+                        SizedBox(width: 150,),
                         Padding(
                           padding: const EdgeInsets.all(8.0),
                           child: Text("P",style: TextStyle(
@@ -162,9 +162,9 @@ class _HomepageState extends State<Homepage> {
                           color: Colors.black,
                               )),
                         ),
-                        SizedBox(width: 40),
+                        SizedBox(width: 50),
                         Padding(
-                          padding: const EdgeInsets.all(8.0),
+                          padding: const EdgeInsets.all(10.0),
                           child: Text("PTS",style: TextStyle(
                               fontSize: 20.0,
                               color: Colors.black,
@@ -175,10 +175,13 @@ class _HomepageState extends State<Homepage> {
                     Divider(thickness: 2,color: Colors.black,),
                     Row(
                       children: [
-                        Text("1.  MUNICH FC",style: TextStyle(
-                          fontSize: 15.0,
-                          color: Colors.black,
-                        )),
+                        Padding(
+                          padding: const EdgeInsets.all(8.0),
+                          child: Text("1.  MUNICH FC",style: TextStyle(
+                            fontSize: 15.0,
+                            color: Colors.black,
+                          )),
+                        ),
                         SizedBox(width: 50,),
                         Padding(
                           padding: const EdgeInsets.all(8.0),
@@ -208,10 +211,13 @@ class _HomepageState extends State<Homepage> {
                     ),
                     Row(
                       children: [
-                        Text("1.  MUNICH FC",style: TextStyle(
-                          fontSize: 15.0,
-                          color: Colors.black,
-                        )),
+                        Padding(
+                          padding: const EdgeInsets.all(8.0),
+                          child: Text("2.  MUNICH FC",style: TextStyle(
+                            fontSize: 15.0,
+                            color: Colors.black,
+                          )),
+                        ),
                         SizedBox(width: 50,),
                         Padding(
                           padding: const EdgeInsets.all(8.0),
@@ -241,10 +247,13 @@ class _HomepageState extends State<Homepage> {
                     ),
                     Row(
                       children: [
-                        Text("1.  MUNICH FC",style: TextStyle(
-                          fontSize: 15.0,
-                          color: Colors.black,
-                        )),
+                        Padding(
+                          padding: const EdgeInsets.all(8.0),
+                          child: Text("3.  MUNICH FC",style: TextStyle(
+                            fontSize: 15.0,
+                            color: Colors.black,
+                          )),
+                        ),
                         SizedBox(width: 50,),
                         Padding(
                           padding: const EdgeInsets.all(8.0),
@@ -273,10 +282,13 @@ class _HomepageState extends State<Homepage> {
                       ],
                     ),Row(
                       children: [
-                        Text("1.  MUNICH FC",style: TextStyle(
-                          fontSize: 15.0,
-                          color: Colors.black,
-                        )),
+                        Padding(
+                          padding: const EdgeInsets.all(8.0),
+                          child: Text("4.  MUNICH FC",style: TextStyle(
+                            fontSize: 15.0,
+                            color: Colors.black,
+                          )),
+                        ),
                         SizedBox(width: 50,),
                         Padding(
                           padding: const EdgeInsets.all(8.0),
@@ -306,10 +318,13 @@ class _HomepageState extends State<Homepage> {
                     ),
                     Row(
                       children: [
-                        Text("1.  MUNICH FC",style: TextStyle(
-                          fontSize: 15.0,
-                          color: Colors.black,
-                        )),
+                        Padding(
+                          padding: const EdgeInsets.all(8.0),
+                          child: Text("5.  MUNICH FC",style: TextStyle(
+                            fontSize: 15.0,
+                            color: Colors.black,
+                          )),
+                        ),
                         SizedBox(width: 50,),
                         Padding(
                           padding: const EdgeInsets.all(8.0),
